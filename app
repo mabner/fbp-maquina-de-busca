@@ -47,7 +47,7 @@ class WikipediaCommand extends Command {
         }
 
         $table = new Table($output);
-        $table->setHeaders(['Title', 'Resume'])->setRows($rows);
+        $table->setHeaders(['Title', 'Preview'])->setRows($rows);
         $table->render();
         return 0;
     }
