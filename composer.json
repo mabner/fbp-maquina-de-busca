@@ -8,6 +8,9 @@
         "symfony/css-selector": "^5.2",
         "symfony/console": "^5.2"
     },
+    "scripts": {
+        "test": "phpunit"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "src"
