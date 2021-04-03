@@ -16,6 +16,11 @@
             "App\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\App\\": "tests"
+        }
+    },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
