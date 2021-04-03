@@ -8,7 +8,11 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 class WikipediaEngine implements EngineInterface
 {
-    private const URI = 'https://pt.wikipedia.org/w/index.php?search=%s&title=Especial:Pesquisar&fulltext=1&ns0=1';
+    // PT search URI
+    // private const URI = 'https://pt.wikipedia.org/w/index.php?search=%s&title=Especial:Pesquisar&fulltext=1&ns0=1';
+
+    // EN search URI
+    private const URI = 'https://en.wikipedia.org/w/index.php?search=%s&title=Special:Search&fulltext=1&ns0=1';
 
     /**
      * @var WikipediaParser

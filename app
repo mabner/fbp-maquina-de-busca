@@ -33,7 +33,7 @@ class WikipediaCommand extends Command {
     protected function configure()
     {
         $this
-            ->setName('search')
+            ->setName('wikipedia')
             ->setDescription('Search for Wikipedia content')
             ->addArgument('content', InputArgument::REQUIRED, 'Content to be searched');
     }
